@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    align-items: center;
+    background: rgb(1, 3, 25);
+    color: #fff;
+    padding: 0px 40px;
+    margin-top: 2rem;
+}
+
+main{
+    align-items: center;
+    margin-left: 5rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.habilidades{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0 0 5rem;
+    margin-top: 4rem;
+}
+
+.habilidade{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-right: 3rem;
+    margin-top: 4rem;
+}
+
+.habilidade__color{
+    background: rgb(2, 5, 35);
+    list-style: none;
+    padding: 3rem;
+    margin-right: 3rem;
+}
+
+.habilidades__img{
+    display: flex;
+    margin: 0.500rem;
+}
+
+.habilidades__img-logo{
+    display: flex;
+    width: 11rem;
+    padding: 1rem;
+}
+
+.data__formacao{
+    margin-top: 5px;
+    font-style: italic;
+    opacity: 70%;
+}
+
+
+
+.experiencia__imagem{
+    width: 725px;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+
+.experiencia__imagem-forca{
+    width: 725px;
+    margin-top: 2rem;
+    padding: 2rem;
+    margin-right: 5rem;
+}
+
+.experiencia{
+    align-items: center;
+    display: flex;
+}
+
+.experiencia-forca{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.experiencia__items{
+    gap: 5rem;
+}
+
+.texto__repositório{
+    margin-top: 0.250rem;
+}
+
+.repositorio{
+    cursor: pointer;
+    margin-top: 0.500rem;
+    color: rgb(4, 4, 178);
+    padding: 0.400rem;
+}
+
+.repositorio:hover{
+    cursor: pointer;
+    color: rgb(1, 1, 105);
+    padding: 0.450rem;
+    font-style: oblique;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+
+.formulario__contato{
+    display: flex;
+    width: 30rem;
+    padding: 18px;
+    margin-top: 0.500rem;
+}
+
+.formulario__botao{
+    margin-top: 0.600rem;
+    padding: 0.800rem;
+    cursor: pointer;
+}
+
+.formulario__botao:hover{
+    padding: 0.850rem;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    padding: 0.700rem;
+}

@@ -1,0 +1,29 @@
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho{
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    margin-right: 5rem;
+}
+
+.cabecalho__item___eu{
+    color: #fff;
+    margin-left: 5rem;
+    list-style: none;
+}
+
+.cabecalho__link{
+    color: #fff;
+    margin-right: 1.75rem;
+    text-decoration: none;
+}
+
+.cabecalho__link#ativo{
+    color: rgb(140, 203, 255);
+    font-weight: bold;
+}

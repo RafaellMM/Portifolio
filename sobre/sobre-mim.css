@@ -1,0 +1,37 @@
+.sobre__item{
+    list-style: none;
+}
+
+.texto__eu{
+    margin-top: 1rem;
+}
+
+.sobreLink{
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+.sobre__link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.sobre__link:hover{
+    color: rgb(87, 81, 81);
+    font-weight: bold;
+}
+
+.imagem__perfil{
+    width: 12rem;
+    border-radius: 100%;
+    margin-left: 50rem;
+}
+
+.sobre__mim{
+    margin-top: 3rem;
+}
+
+.pequeno__texto{
+    margin-top: 1rem;
+}
